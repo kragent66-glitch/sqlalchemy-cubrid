@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.10.0] - 2026-10-05
+
 ### Upgrade notes
 - **Python 3.11 or newer is required (#686).** Python 3.10 reached upstream end
   of life on 2026-10-01 and its retirement was announced in 1.9.0. On Python 3.10
@@ -32,6 +34,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Korean contribution guide (#708)** — `docs/CONTRIBUTING.ko.md` translates the current `CONTRIBUTING.md`, keeping commands, English GitHub conventions, label names and title examples unchanged. It is linked from the Korean README and the Korean navigation. English stays the authoritative version.
 - **Korean documentation home page and one Korean navigation section (#707)** — `docs/ko/index.md` is the Korean landing page, linked from the English home page and back. The Korean guides sat three levels deep under "Project → Translations"; they are now one top-level "한국어" section grouped like the English navigation, and every Korean page is reachable from it.
 - **Korean support matrix, feature table and CI policy match the English documents (#706)** — `docs/ko/SUPPORT_MATRIX.md` shows the CI matrix as a table and loses a Korean-only closing section; `docs/ko/FEATURE_SUPPORT.md` drops a limitation row (`IS DISTINCT FROM`) that the English table does not list; `docs/ko/CI_POLICY.md` is a full translation instead of a summary. Both CI policy pages are in the site navigation. The English text is unchanged.
+
+### Conventional commits
+
+#### Features
+
+* **python:** require Python 3.11 or later ([#703](https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/703)) ([f764d27](https://github.com/cubrid-lab/sqlalchemy-cubrid/commit/f764d27d2f20ece8b2f914b61c5dc1776313b04e)), closes [#686](https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/686)
+
+
+#### Documentation
+
+* **i18n:** add a Korean contribution guide ([#713](https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/713)) ([fcc94b4](https://github.com/cubrid-lab/sqlalchemy-cubrid/commit/fcc94b47d764b7fffdc327da701c99a1d7054b60)), closes [#708](https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/708)
+* **i18n:** add the Korean documentation home page ([#712](https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/712)) ([2966d51](https://github.com/cubrid-lab/sqlalchemy-cubrid/commit/2966d5128c938f2ed32c8f173e226f2190bafa63)), closes [#707](https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/707)
+* **i18n:** synchronize the Korean SUPPORT_MATRIX and FEATURE_SUPPORT and translate CI_POLICY in full ([#711](https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/711)) ([6c3c7c8](https://github.com/cubrid-lab/sqlalchemy-cubrid/commit/6c3c7c88b3ab3ea3fc718daa23671074f6e10350)), closes [#706](https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/706)
+* **i18n:** translate SA_COMPAT, PRD and RELEASE_PLEASE_VALIDATION into Korean ([#714](https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/714)) ([ff2dbdb](https://github.com/cubrid-lab/sqlalchemy-cubrid/commit/ff2dbdb1813c452ab93b4380b9bc1ce932cb92d4)), closes [#709](https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/709)
+* state one SQLAlchemy range on the documentation home page ([#717](https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/717)) ([56d606f](https://github.com/cubrid-lab/sqlalchemy-cubrid/commit/56d606fe62c0575463ea691311515bd3720d3094)), closes [#716](https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/716)
 
 ## [1.9.0] - 2026-10-04
 
